@@ -9,7 +9,7 @@ bot = telebot.TeleBot(Token)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id,"salom")
+    bot.send_message(message.chat.id,"Assalomu alaykum hurmatli ...(name)...")
 
 
 bot.polling(none_stop=True)
